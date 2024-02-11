@@ -36,12 +36,42 @@
 
     <!-- Todo: remove the below script once you finish your portfolio -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <style>
+      ul {
+        list-style-type:none;
+        display:flex;
+        flex-flow:row wrap;
+        justify-content: left;
+        align-items: start;
+        margin:0px;
+        padding:0px;
+      }
+      .navbar a{
+        padding:10px;
+        background-color: #cccccc;
+        text-decoration: none;
+        color:black;
+      }
+      .navbar a:hover{
+        background-color: #bbbbbb;
+      }
+      .navbar a:active{
+        background-color: #aaaaaa;
+      }
+    </style>
   </head>
 
   <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
   <body>
-    <div id="top"></div>
-
+    <div id="navbar-top">
+      <ul class="navbar">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    
     <!-- **** Hero Section **** -->
     <section id="hero" class="jumbotron">
       <div class="container">
